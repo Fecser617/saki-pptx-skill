@@ -1,0 +1,34 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Generated task outputs and release packages
+/output/
+/outputs/
+/artifacts/
+/crops/
+/dist/
+*.zip
+*.log
+
+# Default task manifests and review outputs at repository root
+/manifest.json
+/crops.json
+/qa.json
+/crop-review.png
+/compare.png
+/output.pptx

@@ -1,0 +1,30 @@
+{
+  "mode": "rebuild",
+  "source_image": "/path/to/current-upload.png",
+  "source_pptx": null,
+  "expected_title": "<请从本次原图填写标题>",
+  "expected_slide_count": 1,
+  "required_text": [
+    "<模块1标题>",
+    "<模块2标题>"
+  ],
+  "min_picture_objects": 1,
+  "min_text_shapes": 1,
+  "modules": [
+    {
+      "id": "a",
+      "label": "<模块1标题>",
+      "section": "<所属分组>",
+      "edges_to": [
+        "b"
+      ]
+    },
+    {
+      "id": "b",
+      "label": "<模块2标题>",
+      "section": "<所属分组>",
+      "edges_to": []
+    }
+  ],
+  "allowed_changes": []
+}

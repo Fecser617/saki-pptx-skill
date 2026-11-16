@@ -1,0 +1,23 @@
+{
+  "source_image": "/path/to/current-upload.png",
+  "crops": [
+    {
+      "name": "detail_a",
+      "box": [
+        10,
+        20,
+        110,
+        90
+      ]
+    },
+    {
+      "name": "chart_b",
+      "box": [
+        125,
+        20,
+        225,
+        110
+      ]
+    }
+  ]
+}
