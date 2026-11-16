@@ -32,7 +32,8 @@
 自动检查可以检测图片拉伸、边界越界等，但无法自动保证每一个裁剪图块在语义上完整；需要人工目视核查。
 
 ## 后续打包与更新
-- Skill 安装目录统一命名为 `saki-pptx`；发布包可按版本命名为 `saki-pptx-v0.1.0.zip`。
+- 发布包可按版本命名为 `saki-pptx-v0.1.0.zip`，用于直接上传到 ChatGPT 安装。
+- ZIP 根目录直接包含 `SKILL.md`、`LICENSE`、`requirements.txt` 及资源目录，不添加外层 `saki-pptx/` 文件夹。手动安装到目录时，目录名统一为 `saki-pptx`。
 - 精简安装包保留 `SKILL.md`、`references/`、`scripts/`、`examples/`、`requirements.txt` 和 `LICENSE`。示例被参考文档引用，应随包保留。
 - `README.md`、`CHANGELOG.md` 用于仓库展示和版本维护，默认不放入精简安装包。
 - 任务输入、生成的 PPT、预览、裁剪图、报告、日志和缓存不放入安装包。
